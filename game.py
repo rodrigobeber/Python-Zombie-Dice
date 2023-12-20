@@ -4,7 +4,7 @@ from confirm import *
 from tube import *
 from turn import *
 
-WIN_SCORE = 5
+WIN_SCORE = 13
 
 class Game:
     def __init__(self, players):
