@@ -58,7 +58,6 @@ class Game:
         # play until someone reaches the goal score
         finalTurn = False
         while not finalTurn:
-            print (len(players))
             for player in players:
                 self.__playTurn(player)
                 if player.brains >= WIN_SCORE:
